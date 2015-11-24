@@ -1,0 +1,1 @@
+Basado en este repo https://github.com/phstc/jquery-dateFormat pero con los textos en español
