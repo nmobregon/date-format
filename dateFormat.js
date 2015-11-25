@@ -444,17 +444,17 @@ var DateFormat = {};
         } else if(diff < 120) {
           return 'Hace 1 minuto';
         } else if(diff < 3600) {
-          return "Hace" + Math.floor(diff / 60) + ' minutos';
+          return "Hace " + Math.floor(diff / 60) + ' minutos';
         } else if(diff < 7200) {
           return 'Hace 1 hora';
         } else if(diff < 86400) {
-          return "Hace" + Math.floor(diff / 3600) + ' horas';
+          return "Hace " + Math.floor(diff / 3600) + ' horas';
         } else if(day_diff === 1) {
           return 'Ayer';
         } else if(day_diff < 7) {
-          return "Hace" + day_diff + ' días';
+          return "Hace " + day_diff + ' días';
         } else if(day_diff < 31) {
-          return "Hace" + Math.ceil(day_diff / 7) + ' semanas';
+          return "Hace " + Math.ceil(day_diff / 7) + ' semanas';
         } else if(day_diff >= 31) {
           return 'Hace más de 5 semanas';
         }
